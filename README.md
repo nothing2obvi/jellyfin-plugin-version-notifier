@@ -11,14 +11,14 @@ Built for **Jellyfin 12.x**, targeting the **12.0.0 SDK / .NET 10**. Older Jelly
 1. Open **Dashboard → Plugins → Repositories**, and add:
    - **Name:** `nothing2obvi Plugins`
    - **URL:** `https://raw.githubusercontent.com/nothing2obvi/jellyfin-plugins/main/manifest.json`
-2. Open **Catalog**, select **Version Notifier**, and install version **1.0.0.0**.
+2. Open **Catalog**, select **Version Notifier**, and install version **1.0.1.0**.
 3. Restart Jellyfin, then open **Dashboard → Plugins → Version Notifier**.
 
 Already using this repository? Refresh the catalog and look for Version Notifier.
 
-For manual installation, download [the release ZIP](https://github.com/nothing2obvi/jellyfin-plugins/releases/download/jellyfin-plugins/version-notifier-1.0.0.0-jellyfin12.zip), stop Jellyfin, and extract it into `VersionNotifier_1.0.0.0` inside your plugins directory (usually `/config/plugins` in Docker). Start Jellyfin again. Install the complete package to include its dashboard artwork.
+For manual installation, download [the release ZIP](https://github.com/nothing2obvi/jellyfin-plugin-version-notifier/releases/download/v1.0.1.0/version-notifier-1.0.1.0-jellyfin12.zip), stop Jellyfin, and extract it into `VersionNotifier_1.0.1.0` inside your plugins directory (usually `/config/plugins` in Docker). Start Jellyfin again. Install the complete package to include its dashboard artwork.
 
-To build from source, run `./build.sh` from this folder with the .NET 10 SDK and Python 3 installed. It runs tests and creates `output/version-notifier-1.0.0.0-jellyfin12.zip`.
+To build from source, run `./build.sh` from this folder with the .NET 10 SDK and Python 3 installed. It runs tests and creates `output/version-notifier-1.0.1.0-jellyfin12.zip`.
 
 ## Settings
 

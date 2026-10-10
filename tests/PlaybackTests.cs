@@ -83,6 +83,18 @@ public sealed class PlaybackTests : IDisposable
         await Release(); Assert.Equal(0, _sends);
     }
     [Fact]
+    public async Task MissingMediaSourceIdCanStillNotify()
+    {
+        _session.PlayState.MediaSourceId = null!;
+        var start = Args();
+        start.MediaSourceId = null!;
+        _sessions.PlaybackStart += Raise.Event<EventHandler<PlaybackProgressEventArgs>>(this, start);
+        await Release();
+        await _sent.Task.WaitAsync(TimeSpan.FromSeconds(3));
+        Assert.Equal(1, _sends);
+    }
+
+    [Fact]
     public async Task SendFailureIsHandledWithoutRetry()
     {
         _sessions.SendMessageCommand(Arg.Any<string>(), Arg.Any<string>(), Arg.Any<MessageCommand>(), Arg.Any<CancellationToken>())
