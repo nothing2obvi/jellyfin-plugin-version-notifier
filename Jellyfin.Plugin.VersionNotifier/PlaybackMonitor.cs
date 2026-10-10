@@ -135,8 +135,7 @@ public sealed class PlaybackMonitor : IHostedService, IDisposable
             return _configuration().Enabled && ReferenceEquals(session, p.Session) && session?.UserId == p.User && session.NowPlayingItem?.Id == p.Item &&
                 (string.IsNullOrEmpty(p.Source)
                     ? string.IsNullOrEmpty(session.PlayState?.MediaSourceId)
-                    : string.Equals(session.PlayState?.MediaSourceId, p.Source, StringComparison.OrdinalIgnoreCase)) &&
-                session.SupportedCommands.Contains(GeneralCommandType.DisplayMessage);
+                    : string.Equals(session.PlayState?.MediaSourceId, p.Source, StringComparison.OrdinalIgnoreCase));
         }
     }
 
