@@ -1,0 +1,13 @@
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/Jellyfin.Plugin.VersionNotifier.csproj.AssemblyReference.cache
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/Jellyfin.Plugin.VersionNotifier.GeneratedMSBuildEditorConfig.editorconfig
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/Jellyfin.Plugin.VersionNotifier.AssemblyInfoInputs.cache
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/Jellyfin.Plugin.VersionNotifier.AssemblyInfo.cs
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/Jellyfin.Plugin.VersionNotifier.csproj.CoreCompileInputs.cache
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/Jellyfin.Plugin.VersionNotifier.sourcelink.json
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/bin/Release/net10.0/Jellyfin.Plugin.VersionNotifier.deps.json
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/bin/Release/net10.0/Jellyfin.Plugin.VersionNotifier.dll
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/bin/Release/net10.0/Jellyfin.Plugin.VersionNotifier.pdb
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/Jellyfin.Plugin.VersionNotifier.dll
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/refint/Jellyfin.Plugin.VersionNotifier.dll
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/Jellyfin.Plugin.VersionNotifier.pdb
+/Users/joncasas/GitHub/jellyfin-plugins/VersionNotifier/Jellyfin.Plugin.VersionNotifier/obj/Release/net10.0/ref/Jellyfin.Plugin.VersionNotifier.dll
